@@ -1,5 +1,7 @@
 
 import 'package:chatterbox/constants/constants.dart';
+import 'package:chatterbox/views/calls_screen.dart';
+import 'package:chatterbox/views/status_screen.dart';
 import 'package:chatterbox/views/widgets/contacts_list.dart';
 
 class MobileScreenLayout extends StatelessWidget {
@@ -54,7 +56,14 @@ class MobileScreenLayout extends StatelessWidget {
           ),
         ),
 
-        body: const ContactsList(),
+        body: const TabBarView(
+          physics: BouncingScrollPhysics(),
+          children: [
+            ContactsList(),
+            StatusScreen(),
+            CallsScreen(),
+          ],
+        ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {  },
           backgroundColor: tabColor,
