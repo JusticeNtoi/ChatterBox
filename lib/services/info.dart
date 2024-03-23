@@ -83,7 +83,7 @@ const messages = [
   {"isMe": true, "text": "Obviously, say", "time": "11:03 am"},
   {
     "isMe": false,
-    "text": "haha I wanted you to check out my new channel ^^",
+    "text": "haha I wanted you to check out my new channel Hasta La Vista. Is it cool or nah! I need you to be fair Bro.",
     "time": "11:04 am"
   },
   {
@@ -98,7 +98,7 @@ const messages = [
   },
   {
     "isMe": true,
-    "text": "Looks great to me!",
+    "text": "Looks great to me! But I think if you can change the color on the background image make it red then blend it in It would be dope.",
     "time": "11:15 am",
   },
 
@@ -128,5 +128,15 @@ const messages = [
     "isMe": false,
     "text": "OMG! Woah! Thanks!",
     "time": "11:20 am",
+  },
+  {
+    "isMe": true,
+    "text": "Yo!",
+    "time": "11:40 am",
+  },
+  {
+    "isMe": false,
+    "text": "Yee",
+    "time": "11:42 am",
   },
 ];

@@ -22,12 +22,13 @@ class WebSearchBar extends StatelessWidget {
           filled: true,
           fillColor: searchBarColor,
           prefixIcon: const Padding(
-            padding: EdgeInsets.symmetric(horizontal: 20),
+            padding: EdgeInsets.symmetric(horizontal: 10),
             child: Icon(Icons.search),
           ),
           hintText: 'Search',
           hintStyle: const TextStyle(
             fontSize: 14,
+            color: greyColor
           ),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(28),

@@ -17,7 +17,7 @@ class WebProfileBar extends StatelessWidget {
             color: dividerColor,
           ),
         ),
-        color: webAppBarColor,
+        color: appBarColor,
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -26,6 +26,7 @@ class WebProfileBar extends StatelessWidget {
             backgroundImage: NetworkImage(
               'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
             ),
+            radius: 24,
           ),
           Row(
             children: [

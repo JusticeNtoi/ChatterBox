@@ -2,6 +2,7 @@
 
 import 'package:chatterbox/constants/constants.dart';
 import 'package:chatterbox/services/info.dart';
+import 'package:chatterbox/views/mobile_chat_screen.dart';
 
 class ContactsList extends StatelessWidget {
   const ContactsList({super.key});
@@ -17,7 +18,13 @@ class ContactsList extends StatelessWidget {
           return Column(
             children: [
               InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (BuildContext context) {
+                      return MobileChatScreen(data: info[index],);
+                    }),
+                  );
+                },
                 child: Padding(
                   padding: const EdgeInsets.only(bottom: 8.0),
                   child: ListTile(
@@ -25,7 +32,7 @@ class ContactsList extends StatelessWidget {
                       backgroundImage: NetworkImage(
                         info[index]['profilePic'].toString()
                       ),
-                      radius: 30,
+                      radius: 28,
                     ),
 
                     title: Text(
