@@ -1,5 +1,4 @@
 
-
 import 'package:chatterbox/constants/constants.dart';
 import 'package:chatterbox/services/info.dart';
 import 'package:chatterbox/views/mobile_chat_screen.dart';
@@ -39,7 +38,8 @@ class ContactsList extends StatelessWidget {
                       info[index]['name'].toString(),
                       style: const TextStyle(
                         fontSize: 18,
-                        color: textColor,
+                        color: textColor2,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
 
@@ -49,7 +49,7 @@ class ContactsList extends StatelessWidget {
                         info[index]['message'].toString(),
                         style: const TextStyle(
                           fontSize: 15,
-                          color: textColor,
+                          color: textColor2,
                         ),
                       ),
                     ),
@@ -58,7 +58,7 @@ class ContactsList extends StatelessWidget {
                       info[index]['time'].toString(),
                       style: const TextStyle(
                         fontSize: 13,
-                        color: greyColor,
+                        color: textColor2,
                       ),
                     ),
                   ),

@@ -19,7 +19,7 @@ class WebScreenLayout extends StatelessWidget {
             child: SingleChildScrollView(
               child: Column(
                 children: [
-                  WebProfileBar(),
+                  // WebProfileBar(),
                   WebSearchBar(),
                   ContactsList(),
                 ],
@@ -31,7 +31,7 @@ class WebScreenLayout extends StatelessWidget {
             width: MediaQuery.of(context).size.width*0.70,
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage(backgroundImage),
+                image: AssetImage(backgroundImage2),
                 fit: BoxFit.cover,
               )
             ),
@@ -43,7 +43,7 @@ class WebScreenLayout extends StatelessWidget {
                 ),
 
                 Container(
-                  height: 60,
+                  height: 70,
                   padding: const EdgeInsets.all(10),
                   decoration: const BoxDecoration(
                     border: Border(
@@ -51,7 +51,7 @@ class WebScreenLayout extends StatelessWidget {
                         color: dividerColor,
                       )
                     ),
-                    color: chatBarMessageColor,
+                    color: appBarColor,
                   ),
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.end,
@@ -60,14 +60,14 @@ class WebScreenLayout extends StatelessWidget {
                       onPressed: () {},
                         icon: const Icon(
                           Icons.emoji_emotions_outlined,
-                          color: greyColor,
+                          color: textColor,
                         ),
                       ),
                       IconButton(
                         onPressed: () {},
                         icon: const Icon(
                           Icons.attach_file,
-                          color: greyColor,
+                          color: textColor,
                         ),
                       ),
 
@@ -78,12 +78,15 @@ class WebScreenLayout extends StatelessWidget {
                             right: 10,
                           ),
                           child: TextField(
+                            style: const TextStyle(
+                              color: textColor2,
+                            ),
                             decoration: InputDecoration(
                               fillColor: searchBarColor,
                               filled: true,
                               hintText: "Type a message",
                               hintStyle: const TextStyle(
-                                color: greyColor,
+                                color: receiverMessageColor,
                                 fontSize: 14,
                               ),
                               border: OutlineInputBorder(
@@ -96,11 +99,19 @@ class WebScreenLayout extends StatelessWidget {
                         ),
                       ),
 
-                      IconButton(
-                        onPressed: () {},
-                        icon: const Icon(
-                          Icons.mic,
-                          color: greyColor,
+                      Container(
+                        height: 50,
+                        width: 50,
+                        decoration: BoxDecoration(
+                          color: textColor,
+                          borderRadius: BorderRadius.circular(50),
+                        ),
+                        child: IconButton(
+                          onPressed: () {},
+                          icon: const Icon(
+                            Icons.mic,
+                            color: appBarColor,
+                          ),
                         ),
                       ),
 

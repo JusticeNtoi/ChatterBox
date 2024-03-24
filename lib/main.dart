@@ -17,8 +17,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'ChatterBox',
       theme: ThemeData.dark().copyWith(
+        primaryColor: appBarColor,
         scaffoldBackgroundColor: backgroundColor,
-        // colorScheme: ColorScheme.fromSeed(seedColor: tabColor)
+        colorScheme: ColorScheme.fromSeed(seedColor: appBarColor)
       ),
       home: const ResponsiveLayout(
         mobileScreenLayout: MobileScreenLayout(),

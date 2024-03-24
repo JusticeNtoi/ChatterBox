@@ -1,142 +1,141 @@
 const info = [
   {
-    'name': 'Rivaan Ranawat',
-    'message': 'Hey, how are you doing?',
-    'time': '3:53 pm',
+    'name': 'Alice',
+    'message': 'Hey, hows it going?',
+    'time': '10:30 am',
     'profilePic':
-    'https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg',
+    'https://images.unsplash.com/photo-1710587384959-3541e5e27999?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8',
   },
   {
-    'name': 'Dad',
-    'message': 'Call me, have some work',
-    'time': '12:06 pm',
+    'name': 'Bob',
+    'message': 'Meeting at 2 PM, dont forget!',
+    'time': '12:15 pm',
     'profilePic':
-    'https://pbs.twimg.com/profile_images/1419974913260232732/Cy_CUavB.jpg',
+    'https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D',
   },
   {
-    'name': 'Mom',
-    'message': 'You ate food?',
-    'time': '10:00 am',
+    'name': 'Claire',
+    'message': 'Just finished the presentation, it went well!',
+    'time': '3:45 pm',
     'profilePic':
-    'https://uploads.dailydot.com/2018/10/olli-the-polite-cat.jpg?auto=compress%2Cformat&ixlib=php-3.3.0',
+    'https://images.unsplash.com/photo-1579783483458-83d02161294e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
   },
   {
-    'name': 'Jurica',
-    'message': 'Yo!!!!! Long time, no see!?',
-    'time': '9:53 am',
+    'name': 'David',
+    'message': 'Are we still on for dinner tonight?',
+    'time': '5:20 pm',
     'profilePic':
-    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+    'https://images.unsplash.com/photo-1466112928291-0903b80a9466?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
   },
   {
-    'name': 'Albert Dera',
-    'message': 'Am I fat?',
-    'time': '7:25 am',
+    'name': 'Emily',
+    'message': 'Happy birthday! 🎉',
+    'time': '8:00 am',
     'profilePic':
-    'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D',
   },
   {
-    'name': 'Joseph',
-    'message': 'I am from International Olym...',
-    'time': '6:02 am',
+    'name': 'Frank',
+    'message': 'Can you pick up some groceries on your way home?',
+    'time': '4:30 pm',
     'profilePic':
-    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+    'https://images.unsplash.com/photo-1497316730643-415fac54a2af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D',
   },
   {
-    'name': 'Sikandar',
-    'message': 'Lets Code!',
-    'time': '4:56 am',
+    'name': 'Grace',
+    'message': 'Just saw a movie, it was great!',
+    'time': '7:10 pm',
     'profilePic':
-    'https://images.unsplash.com/photo-1619194617062-5a61b9c6a049?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60',
+    'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
   },
   {
-    'name': 'John Doe',
-    'message': 'Hello, whats up',
-    'time': '2:25 pm',
+    'name': 'Henry',
+    'message': 'Lets plan a trip for next month!',
+    'time': '2:45 pm',
     'profilePic':
-    'https://www.socialketchup.in/wp-content/uploads/2020/05/fi-vill-JOHN-DOE.jpg',
+    'https://images.unsplash.com/photo-1455274111113-575d080ce8cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
   },
   {
-    'name': 'Naman Ranawat',
-    'message': 'Hello, I want to sleep.',
-    'time': '1:03 pm',
+    'name': 'Isabelle',
+    'message': 'Did you see the new episode? Its amazing!',
+    'time': '9:25 pm',
     'profilePic':
-    'https://media.cntraveler.com/photos/60596b398f4452dac88c59f8/16:9/w_3999,h_2249,c_limit/MtFuji-GettyImages-959111140.jpg',
+    'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
   },
   {
-    'name': 'Ian Dooley',
-    'message': 'Images by Unsplash',
-    'time': '1:00 am',
+    'name': 'Jack',
+    'message': 'Running a bit late, be there in 15 minutes.',
+    'time': '6:50 pm',
     'profilePic':
-    'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+    'https://images.unsplash.com/photo-1522196772883-393d879eb14d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
   },
 ];
 
 const messages = [
-  {"isMe": false, "text": "Hey What is up with you!!", "time": "10:00 am"},
-  {"isMe": true, "text": "im fine,wbu?", "time": "11:00 am"},
-  {"isMe": false, "text": "I am great man!", "time": "11:01 am"},
+  {"isMe": true, "text": "Hey Bob, how about we go out for a photoshoot this weekend?", "time": "10:00 am"},
+  {"isMe": false, "text": "Sounds like a plan! Where are you thinking of going?", "time": "11:00 am"},
+  {"isMe": true, "text": "I found this great park with amazing scenery. It's perfect for some nature shots.", "time": "11:01 am"},
   {
     "isMe": false,
-    "text": "Just messaged cuz I had some work.",
+    "text": "That sounds awesome! What time should we meet?",
     "time": "11:01 am"
   },
-  {"isMe": true, "text": "Obviously, say", "time": "11:03 am"},
+  {"isMe": true, "text": "How about 10 AM? That way we can catch the morning light.", "time": "11:03 am"},
   {
     "isMe": false,
-    "text": "haha I wanted you to check out my new channel Hasta La Vista. Is it cool or nah! I need you to be fair Bro.",
+    "text": "Works for me! I'll bring my camera gear. Can't wait to get some great shots!",
     "time": "11:04 am"
   },
   {
     "isMe": true,
-    "text": " Sure, what is the channel name?",
+    "text": "Definitely! It's going to be a fun day of photography. Have you thought about what lenses you'll bring?",
     "time": "11:05 am"
   },
   {
     "isMe": false,
-    "text": "Rivaan Ranawat",
+    "text": "Oh yeah, I'm thinking of bringing my 24-70mm for versatility and maybe the 50mm for those beautiful bokeh shots.",
     "time": "11:06 am",
+  },
+  {"isMe": false, "text": "Wildlife shots would be amazing! Do you have any specific shots in mind that you want to capture?", "time": "11:17 am"},
+
+  {
+    "isMe": true,
+    "text": "Nice choices! I'll be bringing my wide-angle lens for those sweeping landscapes and maybe my telephoto for some close-ups of wildlife if we're lucky.",
+    "time": "11:15 am",
   },
   {
     "isMe": true,
-    "text": "Looks great to me! But I think if you can change the color on the background image make it red then blend it in It would be dope.",
-    "time": "11:15 am",
-  },
-
-
-  {"isMe": false, "text": "Thanks bro!", "time": "11:17 am"},
-  {
-    "isMe": false,
-    "text": "Did you subscribe?",
+    "text": "I'm hoping to get some shots of the sunrise over the lake, and maybe some close-ups of the flowers in the meadow. What about you?",
     "time": "11:16 am"
   },
   {
-    "isMe": true,
-    "text": "Yes, surely bro!",
+    "isMe": false,
+    "text": "I'm thinking of experimenting with long exposures near the waterfall, and maybe some candid shots of people enjoying the park.",
     "time": "11:17 am"
   },
   {
-    "isMe": false,
-    "text": "Cool, did you like the content?",
+    "isMe": true,
+    "text": "That sounds fantastic! It's going to be a creative day for sure. Do you need any extra gear like tripods or filters?",
     "time": "11:18 am",
   },
   {
-    "isMe": true,
-    "text": "I loved it?",
+    "isMe": false,
+    "text": "I'll bring my tripod for those steady shots and a polarizing filter for enhancing the colors. Do you need me to bring anything extra?",
     "time": "11:19 am",
   },
   {
-    "isMe": false,
-    "text": "OMG! Woah! Thanks!",
+    "isMe": true,
+    "text": "Actually, could you bring an extra memory card just in case? I always seem to fill mine up quickly.",
     "time": "11:20 am",
   },
   {
-    "isMe": true,
-    "text": "Yo!",
+    "isMe": false,
+    "text": "Sure thing, I'll make sure to pack an extra. Can't wait for Saturday, it's going to be an epic photoshoot!",
     "time": "11:40 am",
   },
   {
-    "isMe": false,
-    "text": "Yee",
+    "isMe": true,
+    "text": "Agreed! The park is going to be our canvas, and our cameras the brushes. See you Saturday at 10, Bob!",
     "time": "11:42 am",
   },
 ];

@@ -6,7 +6,12 @@ class CallsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text("Calls Screen"),
+      child: Text(
+        "Calls Screen",
+        style: TextStyle(
+          color: textColor2,
+        ),
+      ),
     );
   }
 }

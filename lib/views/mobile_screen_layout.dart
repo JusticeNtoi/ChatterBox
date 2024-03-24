@@ -18,7 +18,7 @@ class MobileScreenLayout extends StatelessWidget {
           title: const Text(
             "ChatterBox",
             style: TextStyle(
-              color: greyColor,
+              color: textColor,
               fontSize: 20,
               fontWeight: FontWeight.bold,
             ),
@@ -28,14 +28,14 @@ class MobileScreenLayout extends StatelessWidget {
               onPressed: () {},
               icon: const Icon(
                 Icons.search,
-                color: greyColor
+                color: textColor
               ),
             ),
             IconButton(
               onPressed: () {},
               icon: const Icon(
                 Icons.more_vert,
-                color: greyColor,
+                color: textColor,
               ),
             ),
           ],
@@ -43,8 +43,8 @@ class MobileScreenLayout extends StatelessWidget {
             indicatorColor: tabColor,
             indicatorWeight: 4,
             indicatorSize: TabBarIndicatorSize.tab,
-            labelColor: tabColor,
-            unselectedLabelColor: greyColor,
+            labelColor: textColor,
+            unselectedLabelColor: textColor,
             labelStyle: TextStyle(
               fontWeight: FontWeight.bold
             ),

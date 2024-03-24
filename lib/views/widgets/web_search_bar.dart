@@ -9,26 +9,29 @@ class WebSearchBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 70,
-      // height: MediaQuery.of(context).size.height*0.1,
       width: MediaQuery.of(context).size.width*0.3,
       padding: const EdgeInsets.all(10),
       decoration: const BoxDecoration(
         border: Border(
-          bottom: BorderSide(color: dividerColor),
-        )
+          top: BorderSide(color: senderMessageColor,),
+        ),
+        color: appBarColor,
       ),
       child: TextField(
+        style: const TextStyle(
+          color: textColor2,
+        ),
         decoration: InputDecoration(
           filled: true,
           fillColor: searchBarColor,
           prefixIcon: const Padding(
             padding: EdgeInsets.symmetric(horizontal: 10),
-            child: Icon(Icons.search),
+            child: Icon(Icons.search, color: appBarColor),
           ),
           hintText: 'Search',
           hintStyle: const TextStyle(
             fontSize: 14,
-            color: greyColor
+            color: appBarColor,
           ),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(28),

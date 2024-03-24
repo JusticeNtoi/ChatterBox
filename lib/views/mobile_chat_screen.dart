@@ -1,6 +1,5 @@
 
 import 'package:chatterbox/constants/constants.dart';
-import 'package:chatterbox/services/info.dart';
 import 'package:chatterbox/views/widgets/chat_list.dart';
 
 class MobileChatScreen extends StatelessWidget {
@@ -53,8 +52,11 @@ class MobileChatScreen extends StatelessWidget {
               children: [
                 Expanded(
                   child: TextField(
+                    style: const TextStyle(
+                      color: textColor,
+                    ),
                     decoration: InputDecoration(
-                      fillColor: appBarColor,
+                      fillColor: senderMessageColor,
                       filled: true,
                       prefixIcon: IconButton(
                         onPressed: () {},
@@ -88,7 +90,7 @@ class MobileChatScreen extends StatelessWidget {
                       ),
                       hintText: "Type a message",
                       hintStyle: const TextStyle(
-                        color: greyColor,
+                        color: textColor,
                         fontSize: 14,
                       ),
                       border: OutlineInputBorder(
@@ -105,7 +107,7 @@ class MobileChatScreen extends StatelessWidget {
                   height: 50,
                   width: 50,
                   decoration: BoxDecoration(
-                    color: senderMessageColor,
+                    color: appBarColor,
                     borderRadius: BorderRadius.circular(50),
                   ),
                   child: IconButton(

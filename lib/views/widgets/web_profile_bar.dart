@@ -24,7 +24,7 @@ class WebProfileBar extends StatelessWidget {
         children: [
           const CircleAvatar(
             backgroundImage: NetworkImage(
-              'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+              'https://images.unsplash.com/photo-1610288733460-14f838fc590b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG5pZ2h0JTIwcGljc3xlbnwwfHwwfHx8MA%3D%3D',
             ),
             radius: 24,
           ),
@@ -34,14 +34,14 @@ class WebProfileBar extends StatelessWidget {
                 onPressed: () {},
                 icon: const Icon(
                   Icons.comment,
-                  color: greyColor,
+                  color: textColor,
                 ),
               ),
               IconButton(
                 onPressed: () {},
                 icon: const Icon(
                   Icons.more_vert,
-                  color: greyColor,
+                  color: textColor,
                 ),
               ),
             ],
